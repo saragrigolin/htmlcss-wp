@@ -36,13 +36,14 @@ header > img {
     margin-bottom: 20px;
 }
 
-a:nth-child(1) {
+li:nth-child(1) {
     padding-left: 0px;
 }
 
-.nav {
+li {
     padding: 10px 10px 0px 10px;
     font-size: 0.8em;
+    display: inline-block;
 }
 
 a:link, a:visited {
