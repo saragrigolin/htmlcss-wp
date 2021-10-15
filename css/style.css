@@ -1,3 +1,4 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,10 @@ html {
     clear: both;
 }
 
+body {
+    max-width: 1500px;
+}
+
 /* layout */
 .container {
     width: 80%;
@@ -29,6 +34,8 @@ header {
 header > img {
     height: 60%;
     margin-bottom: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #bdbdbd;
 }
 
 a:nth-child(1) {
@@ -61,6 +68,7 @@ a:link, a:visited {
     border-radius: 10px;
 }
 
+/* testi jumbortron */
 .jumbotron h1 {
     font-weight: 300;
     padding: 280px 450px 0px 40px;
@@ -85,6 +93,10 @@ a:link, a:visited {
 }
 
 /* layout colonne */
+.columns {
+    margin-top: 30px;
+}
+
 div[class$="-col"] {
     float: left;
 }
@@ -92,14 +104,14 @@ div[class$="-col"] {
 .first-col, 
 .third-col {
     width: 20%;
-    margin: 30px 0;
 }
 
 .second-col {
-    width: calc(60% - 20px);
-    margin: 30px 10px;
+    width: calc(60% - 40px);
+    margin: 0px 20px;
 }
 
+/* css immagini colonne */
 .background-grey {
     background-color: rgba(160, 160, 160, 0.5);
     height: 100%;
@@ -115,6 +127,19 @@ div[class$="-col"] {
     border-radius: 10px;
 }
 
+.first-col-img {
+    background-image: url(../img/img-1.jpg);
+}
+
+.second-col-img {
+    background-image: url(../img/banner-2.jpg)
+}
+
+.third-col-img {
+    background-image: url(../img/img-3.jpg);
+}
+
+/* css testi colonne */
 .first-col-text h4,
 .second-col-text h4,
 .third-col-text h4 {
@@ -129,20 +154,13 @@ div[class$="-col"] {
     color: #A0A0A0;
 }
 
-.first-col-img {
-    background-image: url(../img/img-1.jpg);
-}
-
-.second-col-img {
-    background-image: url(../img/banner-2.jpg)
-}
-
-.third-col-img {
-    background-image: url(../img/img-3.jpg);
-}
-
+/* footer */
 footer {
-    height: 40px;
-    background-color: #8B2CFD;
-    margin-top: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.heart-footer {
+    color: red;
 }
