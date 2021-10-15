@@ -31,25 +31,47 @@ header > img {
     margin-bottom: 15px;
 }
 
-a:nth-child(1){
+a:nth-child(1) {
     padding-left: 0px;
 }
 
-.nav{
+.nav {
     padding: 10px;
     font-size: 0.8em;
 }
 
-a:link, a:visited{
+a:link, a:visited {
     color: #A0A0A0;
     text-decoration: none;
 }
 
 /* layout jumbotron */
 .jumbotron  {
-    height: 400px;
-    background-color: #E1D67A;
+    height: 450px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 10px 0;
+    border-radius: 10px;
+}
+
+.container-jumbotron {
+    background-color: rgba(160, 160, 160, 0.5);
+    height: 450px;
+    border-radius: 10px;
+}
+
+.jumbotron h1 {
+    font-weight: 400;
+    padding: 280px 450px 0px 40px;
+    color: white;
+}
+
+.jumbotron h2 {
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 0px 450px 10px 40px;
+    color: white;
 }
 
 main {
