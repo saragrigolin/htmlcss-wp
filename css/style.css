@@ -6,6 +6,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -20,9 +21,28 @@ html {
     margin: 10px auto;
 }
 
+/* header section */
 header {
-    height: 80px;
-    background-color: #E579E6;
+    height: 100px;
+}
+
+header > img {
+    height: 40%;
+    margin-bottom: 15px;
+}
+
+a:nth-child(1){
+    padding-left: 0px;
+}
+
+.nav{
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+a:link, a:visited{
+    color: #A0A0A0;
+    text-decoration: none;
 }
 
 /* layout jumbotron */
