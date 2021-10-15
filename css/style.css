@@ -34,8 +34,6 @@ header {
 header > img {
     height: 60%;
     margin-bottom: 20px;
-    padding-right: 20px;
-    border-right: 1px solid #bdbdbd;
 }
 
 a:nth-child(1) {
